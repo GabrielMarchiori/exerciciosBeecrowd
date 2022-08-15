@@ -1,18 +1,23 @@
-## Getting Started
+## Senha Fixa
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Escreva um programa que repita a leitura de uma senha até que ela seja válida. Para cada leitura de senha incorreta informada, escrever a mensagem "Senha Invalida". Quando a senha for informada corretamente deve ser impressa a mensagem "Acesso Permitido" e o algoritmo encerrado. Considere que a senha correta é o valor 2002. 
 
-## Folder Structure
+# Entrada
+A entrada é composta por vários casos de testes contendo valores inteiros.
 
-The workspace contains two folders by default, where:
+# Saída
+Para cada valor lido mostre a mensagem correspondente à descrição do problema.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+# Exemplo de Entrada	
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+2200
+1020
+2022
+2002
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+# Exemplo de Saída
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Senha Invalida
+Senha Invalida
+Senha Invalida
+Acesso Permitido

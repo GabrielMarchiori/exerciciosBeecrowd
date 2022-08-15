@@ -1,18 +1,24 @@
-## Getting Started
+## Dividindo X por Y
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Escreva um algoritmo que leia 2 números e imprima o resultado da divisão do primeiro pelo segundo. Caso não for possível mostre a mensagem “divisao impossivel” para os valores em questão.
 
-## Folder Structure
+# Entrada
+A entrada contém um número inteiro N. Este N será a quantidade de pares de valores inteiros (X e Y) que serão lidos em seguida.
 
-The workspace contains two folders by default, where:
+# Saída
+Para cada caso mostre o resultado da divisão com um dígito após o ponto decimal, ou “divisao impossivel” caso não seja possível efetuar o cálculo.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Obs.: Cuide que a divisão entre dois inteiros em algumas linguagens como o C e C++ gera outro inteiro. Utilize cast :)
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+# Exemplo de Entrada	
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+3
+3 -2
+-8 0
+0 8
 
-## Dependency Management
+# Exemplo de Saída
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+-1.5
+divisao impossivel
+0.0

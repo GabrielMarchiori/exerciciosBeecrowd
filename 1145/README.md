@@ -1,18 +1,22 @@
-## Getting Started
+## Sequência Lógica 2
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Escreva um programa que leia dois valores X e Y. A seguir, mostre uma sequência de 1 até Y, passando para a próxima linha a cada X números.
 
-## Folder Structure
+# Entrada
+O arquivo de entrada contém dois valores inteiros, (1 < X < 20) e (X < Y < 100000).
 
-The workspace contains two folders by default, where:
+# Saída
+Cada sequência deve ser impressa em uma linha apenas, com 1 espaço em branco entre cada número, conforme exemplo abaixo. Não deve haver espaço em branco após o último valor da linha.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+# Exemplo de Entrada	
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+3 99
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+# Exemplo de Saída
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1 2 3
+4 5 6
+7 8 9
+10 11 12
+...
+97 98 99

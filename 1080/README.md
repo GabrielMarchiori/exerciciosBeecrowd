@@ -1,18 +1,24 @@
-## Getting Started
+## Maior e Posição
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Leia 100 valores inteiros. Apresente então o maior valor lido e a posição dentre os 100 valores lidos.
 
-## Folder Structure
+# Entrada
+O arquivo de entrada contém 100 números inteiros, positivos e distintos.
 
-The workspace contains two folders by default, where:
+# Saída
+Apresente o maior valor lido e a posição de entrada, conforme exemplo abaixo.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+# Exemplo de Entrada	
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+2
+113
+45
+34565
+6
+...
+8
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+# Exemplo de Saída
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+34565
+4

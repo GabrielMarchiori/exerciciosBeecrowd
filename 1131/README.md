@@ -1,18 +1,35 @@
-## Getting Started
+## Grenais
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A Federação Gaúcha de Futebol contratou você para escrever um programa para fazer uma estatística do resultado de vários GRENAIS. Escreva um programa para ler o número de gols marcados pelo Inter e pelo Grêmio em um GRENAL. Logo após escrever a mensagem "Novo grenal (1-sim 2-nao)" e solicitar uma resposta. Se a resposta for 1, o algoritmo deve ser executado novamente solicitando o número de gols marcados pelos times em uma nova partida, caso contrário deve ser encerrado imprimindo:
 
-## Folder Structure
+- Quantos GRENAIS fizeram parte da estatística.
+- O número de vitórias do Inter.
+- O número de vitórias do Grêmio.
+- O número de Empates.
+- Uma mensagem indicando qual o time que venceu o maior número de GRENAIS (ou "Nao houve vencedor", caso termine empatado).
 
-The workspace contains two folders by default, where:
+# Entrada
+O arquivo de entrada contém 2 valores inteiros, correspondentes aos gols marcados pelo Inter e pelo Grêmio respectivamente. Em seguida háverá um inteiro (1 ou 2), correspondente à repetição do programa.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+# Saída
+Após cada leitura dos gols, deve ser impressa a mensagem "Novo grenal (1-sim 2-nao)". Quando o algoritmo for encerrado devem ser mostradas as estatísticas conforme a descrição apresentada acima. Obs: a palavra "Gremio" deve ser impressa sem acento, conforme o exemplo abaixo.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+# Exemplo de Entrada	
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+3 2
+1
+2 3
+1
+3 1
+2
 
-## Dependency Management
+# Exemplo de Saída
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Novo grenal (1-sim 2-nao)
+Novo grenal (1-sim 2-nao)
+Novo grenal (1-sim 2-nao)
+3 grenais
+Inter:2
+Gremio:1
+Empates:0
+Inter venceu mais

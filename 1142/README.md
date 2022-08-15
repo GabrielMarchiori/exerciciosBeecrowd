@@ -1,18 +1,23 @@
-## Getting Started
+## PUM
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Escreva um programa que leia um valor inteiro N. Este N é a quantidade de linhas de saída que serão apresentadas na execução do programa.
 
-## Folder Structure
+# Entrada
+O arquivo de entrada contém um número inteiro positivo N.
 
-The workspace contains two folders by default, where:
+# Saída
+Imprima a saída conforme o exemplo fornecido.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+# Exemplo de Entrada	
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+7
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+# Exemplo de Saída
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1 2 3 PUM
+5 6 7 PUM
+9 10 11 PUM
+13 14 15 PUM
+17 18 19 PUM
+21 22 23 PUM
+25 26 27 PUM

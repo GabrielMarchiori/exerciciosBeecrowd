@@ -1,18 +1,48 @@
-## Getting Started
+## Animal
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Neste problema, você deverá ler 3 palavras que definem o tipo de animal possível segundo o esquema abaixo, da esquerda para a direita.  Em seguida conclua qual dos animais seguintes foi escolhido, através das três palavras fornecidas.
 
-## Folder Structure
+                 |  >  > carnivoro > > >  aguia
+      | >   >   ave
+      |          |  >  > onivoro   > > >  pomba
+vertebrado       
+      |          |  >  > onivoro   > > > homem 
+      | >   > mamifero
+                 |  >  > herbivoro > > > vaca
 
-The workspace contains two folders by default, where:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+                 |  >  > hematofago  > > pulga   
+      | >  >  inseto
+      |          |  >  > herbivoro > > > lagarta
+invertebrado
+      |          |  >  > hematofago  > > sanguessuga
+      | >  > anelideo
+                 |  >  > onivoro   > > > minhoca
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+> Entrada
+A entrada contém 3 palavras, uma em cada linha, necessárias para identificar o animal segundo a figura acima, com todas as letras minúsculas.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+> Saída
+Imprima o nome do animal correspondente à entrada fornecida.
 
-## Dependency Management
+# Exemplos de Entrada	
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+vertebrado
+mamifero
+onivoro
+
+vertebrado
+ave
+carnivoro
+
+invertebrado
+anelideo
+onivoro
+
+# Exemplos de Saída
+
+homem
+
+aguia
+
+minhoca

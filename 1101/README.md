@@ -1,18 +1,20 @@
-## Getting Started
+## Sequência de Números e Soma
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Leia um conjunto não determinado de pares de valores M e N (parar quando algum dos valores for menor ou igual a zero). Para cada par lido, mostre a sequência do menor até o maior e a soma dos inteiros consecutivos entre eles (incluindo o N e M).
 
-## Folder Structure
+# Entrada
+O arquivo de entrada contém um número não determinado de valores M e N. A última linha de entrada vai conter um número nulo ou negativo.
 
-The workspace contains two folders by default, where:
+# Saída
+Para cada dupla de valores, imprima a sequência do menor até o maior e a soma deles, conforme exemplo abaixo.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+# Exemplo de Entrada	
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+5 2
+6 3
+5 0
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+# Exemplo de Saída
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+2 3 4 5 Sum=14
+3 4 5 6 Sum=18

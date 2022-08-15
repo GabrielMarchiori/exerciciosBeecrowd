@@ -1,18 +1,20 @@
-## Getting Started
+## Números Ímpares
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Leia um valor inteiro X (1 <= X <= 1000). Em seguida mostre os ímpares de 1 até X, um valor por linha, inclusive o X, se for o caso.
 
-## Folder Structure
+# Entrada
+O arquivo de entrada contém 1 valor inteiro qualquer.
 
-The workspace contains two folders by default, where:
+# Saída
+Imprima todos os valores ímpares de 1 até X, inclusive X, se for o caso.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+# Exemplo de Entrada	
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+8
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+# Exemplo de Saída
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1
+3
+5
+7

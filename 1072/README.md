@@ -1,18 +1,24 @@
-## Getting Started
+## Intervalo 2
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Leia um valor inteiro N. Este valor será a quantidade de valores inteiros X que serão lidos em seguida.
+Mostre quantos destes valores X estão dentro do intervalo [10,20] e quantos estão fora do intervalo, mostrando essas informações.
 
-## Folder Structure
+# Entrada
+A primeira linha da entrada contém um valor inteiro N (N < 10000), que indica o número de casos de teste.
+Cada caso de teste a seguir é um valor inteiro X (-107 < X <107).
+ 
+# Saída
+Para cada caso, imprima quantos números estão dentro (in) e quantos valores estão fora (out) do intervalo.
 
-The workspace contains two folders by default, where:
+# Exemplo de Entrada	
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+4
+14
+123
+10
+-25
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+# Exemplo de Saída
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+2 in
+2 out

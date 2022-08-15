@@ -1,18 +1,18 @@
-## Getting Started
+## Múltiplos de 13
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Escreva um algoritmo que leia 2 valores inteiros X e Y calcule a soma dos números que não são múltiplos de 13 entre X e Y, incluindo ambos.
 
-## Folder Structure
+# Entrada
+O arquivo de entrada contém 2 valores inteiros quaisquer, não necessariamente em ordem crescente.
 
-The workspace contains two folders by default, where:
+# Saída
+Imprima a soma de todos os valores não divisíveis por 13 entre os dois valores lidos na entrada, inclusive ambos se for o caso.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+# Sample Input	
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+100
+200
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+# Sample Output
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+13954
