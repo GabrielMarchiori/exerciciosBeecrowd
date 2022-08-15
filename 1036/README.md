@@ -1,18 +1,31 @@
-## Getting Started
+## Fórmula de Bhaskara
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Leia 3 valores de ponto flutuante e efetue o cálculo das raízes da equação de Bhaskara. Se não for possível calcular as raízes, mostre a mensagem correspondente “Impossivel calcular”, caso haja uma divisão por 0 ou raiz de numero negativo.
 
-## Folder Structure
+## Entrada
+Leia três valores de ponto flutuante (double) A, B e C.
 
-The workspace contains two folders by default, where:
+## Saída
+Se não houver possibilidade de calcular as raízes, apresente a mensagem "Impossivel calcular". Caso contrário, imprima o resultado das raízes com 5 dígitos após o ponto, com uma mensagem correspondente conforme exemplo abaixo. Imprima sempre o final de linha após cada mensagem.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Exemplos de Entrada	
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+10.0 20.1 5.1
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+0.0 20.0 5.0
 
-## Dependency Management
+10.3 203.0 5.0
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+10.0 3.0 5.0
+
+## Exemplos de Saída
+
+R1 = -0.29788
+R2 = -1.71212
+
+Impossivel calcular
+
+R1 = -0.02466
+R2 = -19.68408
+
+Impossivel calcular

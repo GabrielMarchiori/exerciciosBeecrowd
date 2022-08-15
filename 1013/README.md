@@ -1,18 +1,25 @@
-## Getting Started
+## O Maior
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Faça um programa que leia três valores e apresente o maior dos três valores lidos seguido da mensagem “eh o maior”. Utilize a fórmula:
 
-## Folder Structure
+MaiorAB = (a+b+abs(a-b))/2
 
-The workspace contains two folders by default, where:
+Obs.: a fórmula apenas calcula o maior entre os dois primeiros (a e b). Um segundo passo, portanto é necessário para chegar no resultado esperado.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Entrada
+O arquivo de entrada contém três valores inteiros.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Saída
+Imprima o maior dos três valores seguido por um espaço e a mensagem "eh o maior".
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Exemplos de Entrada	
 
-## Dependency Management
+7 14 106
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+217 14 6
+
+## Exemplos de Saída
+
+106 eh o maior
+
+217 eh o maior

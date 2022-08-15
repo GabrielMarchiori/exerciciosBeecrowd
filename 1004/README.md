@@ -1,18 +1,28 @@
-## Getting Started
+## Produto Simples
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Leia dois valores inteiros. A seguir, calcule o produto entre estes dois valores e atribua esta operação à variável PROD. A seguir mostre a variável PROD com mensagem correspondente.   
 
-## Folder Structure
+## Entrada
+O arquivo de entrada contém 2 valores inteiros.
 
-The workspace contains two folders by default, where:
+## Saída
+Imprima a mensagem "PROD" e a variável PROD conforme exemplo abaixo, com um espaço em branco antes e depois da igualdade. Não esqueça de imprimir o fim de linha após o produto, caso contrário seu programa apresentará a mensagem: “Presentation Error”.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Exemplos de Entrada
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+3
+9
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+-30
+10
 
-## Dependency Management
+0
+9
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Exemplos de Saída
+
+PROD = 27
+
+PROD = -300
+
+PROD = 0

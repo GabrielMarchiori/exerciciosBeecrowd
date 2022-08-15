@@ -1,18 +1,23 @@
-## Getting Started
+## Múltiplos
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Leia 2 valores inteiros (A e B). Após, o programa deve mostrar uma mensagem "Sao Multiplos" ou "Nao sao Multiplos", indicando se os valores lidos são múltiplos entre si.
 
-## Folder Structure
+## Entrada
 
-The workspace contains two folders by default, where:
+A entrada contém valores inteiros.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Saída
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+A saída deve conter uma das mensagens conforme descrito acima.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+> Exemplo de Entrada	
 
-## Dependency Management
+6 24
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+6 25
+
+> Exemplo de Saída
+
+Sao Multiplos
+
+Nao sao Multiplos

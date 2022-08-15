@@ -1,18 +1,30 @@
-## Getting Started
+## Distância Entre Dois Pontos
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Leia os quatro valores correspondentes aos eixos x e y de dois pontos quaisquer no plano, p1(x1,y1) e p2(x2,y2) e calcule a distância entre eles, mostrando 4 casas decimais após a vírgula, segundo a fórmula:
 
-## Folder Structure
+Distancia = raiz²((x2-x1)²+(y2-y1)²)
 
-The workspace contains two folders by default, where:
+## Entrada
+O arquivo de entrada contém duas linhas de dados. A primeira linha contém dois valores de ponto flutuante: x1 y1 e a segunda linha contém dois valores de ponto flutuante x2 y2.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Saída
+Calcule e imprima o valor da distância segundo a fórmula fornecida, com 4 casas após o ponto decimal.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Exemplo de Entrada	
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+1.0 7.0
+5.0 9.0
 
-## Dependency Management
+-2.5 0.4
+12.1 7.3
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+2.5 -0.4
+-12.2 7.0
+
+## Exemplo de Saída
+
+4.4721
+
+16.1484
+
+16.4575

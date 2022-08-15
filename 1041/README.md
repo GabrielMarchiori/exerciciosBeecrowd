@@ -1,18 +1,39 @@
-## Getting Started
+## Coordenadas de um Ponto
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Leia 2 valores com uma casa decimal (x e y), que devem representar as coordenadas de um ponto em um plano. A seguir, determine qual o quadrante ao qual pertence o ponto, ou se está sobre um dos eixos cartesianos ou na origem (x = y = 0).
 
-## Folder Structure
+        |y
+        |
+    Q2  |   Q1
+        |       x
+--------|--------
+        |
+    Q3  |   Q4
+        |
+        |
 
-The workspace contains two folders by default, where:
+Se o ponto estiver na origem, escreva a mensagem “Origem”.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Se o ponto estiver sobre um dos eixos escreva “Eixo X” ou “Eixo Y”, conforme for a situação.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Entrada
+A entrada contem as coordenadas de um ponto.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Saída
+A saída deve apresentar o quadrante em que o ponto se encontra.
 
-## Dependency Management
+> Exemplo de Entrada
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+4.5 -2.2
+
+0.1 0.1
+
+0.0 0.0
+
+> Exemplo de Saída
+
+Q4
+
+Q1
+
+Origem

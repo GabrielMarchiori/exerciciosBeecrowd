@@ -1,18 +1,31 @@
-## Getting Started
+## Média 2
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Leia 3 valores, no caso, variáveis A, B e C, que são as três notas de um aluno. A seguir, calcule a média do aluno, sabendo que a nota A tem peso 2, a nota B tem peso 3 e a nota C tem peso 5. Considere que cada nota pode ir de 0 até 10.0, sempre com uma casa decimal.
 
-## Folder Structure
+## Entrada
+O arquivo de entrada contém 3 valores com uma casa decimal, de dupla precisão (double).
 
-The workspace contains two folders by default, where:
+## Saída
+Imprima a mensagem "MEDIA" e a média do aluno conforme exemplo abaixo, com 1 dígito após o ponto decimal e com um espaço em branco antes e depois da igualdade. Assim como todos os problemas, não esqueça de imprimir o fim de linha após o resultado, caso contrário, você receberá "Presentation Error".
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Exemplos de Entrada	
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+5.0
+6.0
+7.0
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+5.0
+10.0
+10.0
 
-## Dependency Management
+10.0
+10.0
+5.0
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Exemplos de Saída
+
+MEDIA = 6.3
+
+MEDIA = 9.0
+
+MEDIA = 7.5

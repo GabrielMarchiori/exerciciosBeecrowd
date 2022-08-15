@@ -1,18 +1,32 @@
-## Getting Started
+## Lanche
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Com base na tabela abaixo, escreva um programa que leia o código de um item e a quantidade deste item. A seguir, calcule e mostre o valor da conta a pagar.
 
-## Folder Structure
+Codigo  Especificação       Preço
+1       Cachorro quente     R$4.00
+2       X-Salada            R$4.50
+3       X-Bacon             R$5.00
+4       Torrada simples     R$2.00
+5       Refrigerante        R$1.50
 
-The workspace contains two folders by default, where:
+## Entrada
+O arquivo de entrada contém dois valores inteiros correspondentes ao código e à quantidade de um item conforme tabela acima.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Saída
+O arquivo de saída deve conter a mensagem "Total: R$ " seguido pelo valor a ser pago, com 2 casas após o ponto decimal.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Exemplo de Entrada	
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+3 2
 
-## Dependency Management
+4 3
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+2 3
+
+## Exemplo de Saída
+
+Total: R$ 10.00
+
+Total: R$ 6.00
+
+Total: R$ 13.50

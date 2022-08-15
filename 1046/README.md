@@ -1,18 +1,25 @@
-## Getting Started
+## Tempo de Jogo
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Leia a hora inicial e a hora final de um jogo. A seguir calcule a duração do jogo, sabendo que o mesmo pode começar em um dia e terminar em outro, tendo uma duração mínima de 1 hora e máxima de 24 horas.
 
-## Folder Structure
+## Entrada
+A entrada contém dois valores inteiros representando a hora de início e a hora de fim do jogo.
 
-The workspace contains two folders by default, where:
+## Saída
+Apresente a duração do jogo conforme exemplo abaixo.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+> Exemplo de Entrada	
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+16 2
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+0 0
 
-## Dependency Management
+2 16
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+> Exemplo de Saída
+
+O JOGO DUROU 10 HORA(S)
+
+O JOGO DUROU 24 HORA(S)
+
+O JOGO DUROU 14 HORA(S)

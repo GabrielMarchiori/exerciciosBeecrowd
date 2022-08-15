@@ -1,18 +1,40 @@
-## Getting Started
+## Aumento de Salário
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A empresa ABC resolveu conceder um aumento de salários a seus funcionários de acordo com a tabela abaixo:
 
-## Folder Structure
+>    Salário         Percentual de Reajuste
+    0 - 400.00              15%
+    400.01 - 800.00         12%
+    800.01 - 1200.00        10%
+    1200.01 - 2000.00       7%
+    Acima de 2000.00        4%
 
-The workspace contains two folders by default, where:
+Leia o salário do funcionário e calcule e mostre o novo salário, bem como o valor de reajuste ganho e o índice reajustado, em percentual.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Entrada
+A entrada contém apenas um valor de ponto flutuante, com duas casas decimais.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Saída
+Imprima 3 linhas na saída: o novo salário, o valor ganho de reajuste e o percentual de reajuste ganho, conforme exemplo abaixo.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+> Exemplo de Entrada
 
-## Dependency Management
+400.00
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+800.01
+
+2000.00
+
+> Exemplo de Saída
+
+Novo salario: 460.00
+Reajuste ganho: 60.00
+Em percentual: 15 %
+
+Novo salario: 880.01
+Reajuste ganho: 80.00
+Em percentual: 10 %
+
+Novo salario: 2140.00
+Reajuste ganho: 140.00
+Em percentual: 7 %

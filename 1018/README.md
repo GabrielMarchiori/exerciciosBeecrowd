@@ -1,18 +1,46 @@
-## Getting Started
+## Cédulas
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Leia um valor inteiro. A seguir, calcule o menor número de notas possíveis (cédulas) no qual o valor pode ser decomposto. As notas consideradas são de 100, 50, 20, 10, 5, 2 e 1. A seguir mostre o valor lido e a relação de notas necessárias.
 
-## Folder Structure
+## Entrada
+O arquivo de entrada contém um valor inteiro N (0 < N < 1000000).
 
-The workspace contains two folders by default, where:
+## Saída
+Imprima o valor lido e, em seguida, a quantidade mínima de notas de cada tipo necessárias, conforme o exemplo fornecido. Não esqueça de imprimir o fim de linha após cada linha, caso contrário seu programa apresentará a mensagem: “Presentation Error”.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Exemplo de Entrada	
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+576
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+11257
 
-## Dependency Management
+503
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Exemplo de Saída
+
+576
+5 nota(s) de R$ 100,00
+1 nota(s) de R$ 50,00
+1 nota(s) de R$ 20,00
+0 nota(s) de R$ 10,00
+1 nota(s) de R$ 5,00
+0 nota(s) de R$ 2,00
+1 nota(s) de R$ 1,00
+
+11257
+112 nota(s) de R$ 100,00
+1 nota(s) de R$ 50,00
+0 nota(s) de R$ 20,00
+0 nota(s) de R$ 10,00
+1 nota(s) de R$ 5,00
+1 nota(s) de R$ 2,00
+0 nota(s) de R$ 1,00
+
+503
+5 nota(s) de R$ 100,00
+0 nota(s) de R$ 50,00
+0 nota(s) de R$ 20,00
+0 nota(s) de R$ 10,00
+0 nota(s) de R$ 5,00
+1 nota(s) de R$ 2,00
+1 nota(s) de R$ 1,00

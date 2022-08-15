@@ -1,18 +1,21 @@
-## Getting Started
+## Teste de Seleção 1
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Leia 4 valores inteiros A, B, C e D. A seguir, se B for maior do que C e se D for maior do que A, e a soma de C com D for maior que a soma de A e B e se C e D, ambos, forem positivos e se a variável A for par escrever a mensagem "Valores aceitos", senão escrever "Valores nao aceitos".
 
-## Folder Structure
+## Entrada
+Quatro números inteiros A, B, C e D.
 
-The workspace contains two folders by default, where:
+## Saída
+Mostre a respectiva mensagem após a validação dos valores.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Exemplo de Entrada	
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+5 6 7 8
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+2 3 2 6
 
-## Dependency Management
+## Exemplo de Saída
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Valores nao aceitos
+
+Valores aceitos

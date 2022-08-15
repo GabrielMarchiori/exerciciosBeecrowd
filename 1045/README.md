@@ -1,18 +1,24 @@
-## Getting Started
+## Tipos de Triângulos
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Leia 3 valores de ponto flutuante A, B e C e ordene-os em ordem decrescente, de modo que o lado A representa o maior dos 3 lados. A seguir, determine o tipo de triângulo que estes três lados formam, com base nos seguintes casos, sempre escrevendo uma mensagem adequada:
+se A ≥ B+C, apresente a mensagem: NAO FORMA TRIANGULO
+se A2 = B2 + C2, apresente a mensagem: TRIANGULO RETANGULO
+se A2 > B2 + C2, apresente a mensagem: TRIANGULO OBTUSANGULO
+se A2 < B2 + C2, apresente a mensagem: TRIANGULO ACUTANGULO
+se os três lados forem iguais, apresente a mensagem: TRIANGULO EQUILATERO
+se apenas dois dos lados forem iguais, apresente a mensagem: TRIANGULO ISOSCELES
 
-## Folder Structure
+## Entrada
+A entrada contem três valores de ponto flutuante de dupla precisão A (0 < A) , B (0 < B) e C (0 < C).
 
-The workspace contains two folders by default, where:
+## Saída
+Imprima todas as classificações do triângulo especificado na entrada.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+> Exemplos de Entrada	
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+7.0 5.0 7.0
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+> Exemplos de Saída
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+TRIANGULO ACUTANGULO
+TRIANGULO ISOSCELES
