@@ -111,7 +111,6 @@ Want to make another comparison?
 
 Cities and information:
 New York, population 100, population growth 1.0.
-New York, population 100, population growth 1.0.
 Washington, population 150, population growth 0.
 Los Angeles, population 123, population growth 3.0.
 Boston, population 2000, population growth 2.0.
