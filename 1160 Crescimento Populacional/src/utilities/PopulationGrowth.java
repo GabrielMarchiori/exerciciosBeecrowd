@@ -28,9 +28,6 @@ public class PopulationGrowth {
         return name+", population "+population+", population growth "+growth;
     }
 
-    
-   
-
 
 
     
